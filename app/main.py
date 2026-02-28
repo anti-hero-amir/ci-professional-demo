@@ -11,4 +11,4 @@ def read_root():
 
 @app.get("/add/{a}/{b}")
 def add(a: int, b: int):
-    return {"result": a + bcc}
+    return {"result": a + b}
